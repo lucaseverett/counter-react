@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import styles from "./styles";
+import { useState } from "react";
+import styles from "./styles.js";
 
 function Counter(props) {
   const [count, setCount] = useState(props.count);

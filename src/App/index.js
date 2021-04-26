@@ -1,6 +1,5 @@
-import React from "react";
 import Counter from "../Counter";
-import styles from "./styles";
+import styles from "./styles.js";
 
 function App() {
   return (

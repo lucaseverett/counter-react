@@ -1,8 +1,12 @@
 {
-  "presets": ["@babel/preset-env"],
+  "presets": ["@parcel/babel-preset-env"],
   "plugins": [
-    "@babel/plugin-transform-react-jsx",
-    "transform-inline-environment-variables",
-    "emotion"
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "runtime": "automatic"
+      }
+    ],
+    "@emotion"
   ]
 }
